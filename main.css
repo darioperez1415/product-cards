@@ -7,15 +7,18 @@
 .product-layout{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
-}
+    background-color: rgb(227, 232, 235);
+    letter-spacing: 0.5 px;
+    cursor: pointer;
+    align-content: center;
+}    
 .item {
     order: 3; /* default is 0 */
   }
 
 .card{
     flex: 0 0 30%;
-    box-shadow: 5px 5px lightskyblue;
+    box-shadow: 5px 5px rgb(177, 182, 185);
     margin: 10px
 ;
 }
